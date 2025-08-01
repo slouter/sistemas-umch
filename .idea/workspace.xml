@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4539fa43-d1d6-42e6-b2ed-aedd00f00d3c" name="Changes" comment="" />
+    <list default="true" id="4539fa43-d1d6-42e6-b2ed-aedd00f00d3c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +32,7 @@
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/slouter/servicios-umch.git",
+    "url": "https://github.com/slouter/sistemas-umch.git",
     "accountId": "ac898bcf-1533-46a6-88d3-75c28261a132"
   }
 }]]></component>
@@ -86,7 +89,7 @@
     "Spring Boot.RecursosApplication.executor": "Run",
     "Spring Boot.RecursosServicesApplication.executor": "Run",
     "Spring Boot.SisiconApplication.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "developer",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/PROYECTO UMCH/sistemas_umch",
     "node.js.detected.package.eslint": "true",
@@ -271,7 +274,7 @@
       <workItem from="1751057750976" duration="55000" />
       <workItem from="1751057816459" duration="1798000" />
       <workItem from="1752765527667" duration="276000" />
-      <workItem from="1754056287434" duration="4481000" />
+      <workItem from="1754056287434" duration="5298000" />
     </task>
     <servers />
   </component>
