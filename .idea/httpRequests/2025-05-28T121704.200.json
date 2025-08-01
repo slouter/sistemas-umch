@@ -1,0 +1,42 @@
+[
+  {
+    "idTipoZona": 1,
+    "nombreTipoZona": "Urbana"
+  },
+  {
+    "idTipoZona": 2,
+    "nombreTipoZona": "Rural"
+  },
+  {
+    "idTipoZona": 3,
+    "nombreTipoZona": "Suburbana"
+  },
+  {
+    "idTipoZona": 4,
+    "nombreTipoZona": "Industrial"
+  },
+  {
+    "idTipoZona": 5,
+    "nombreTipoZona": "Comercial"
+  },
+  {
+    "idTipoZona": 6,
+    "nombreTipoZona": "Residencial"
+  },
+  {
+    "idTipoZona": 7,
+    "nombreTipoZona": "Turística"
+  },
+  {
+    "idTipoZona": 8,
+    "nombreTipoZona": "Agrícola"
+  },
+  {
+    "idTipoZona": 9,
+    "nombreTipoZona": "Forestal"
+  },
+  {
+    "idTipoZona": 10,
+    "nombreTipoZona": "Protegida"
+  }
+]

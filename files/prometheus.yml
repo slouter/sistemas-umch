@@ -1,0 +1,17 @@
+global:
+    scrape_interval: 30s
+    evaluation_interval: 30s
+scrape_configs:
+    - job_name: 'recursos'
+      metrics_path: '/actuator/recursos/prometheus'
+      static_configs:
+        - targets: ['host.docker.internal:8080']
+          labels:
+            application: 'Recursos Service'
+
+    - job_name: 'sisicon'
+      metrics_path: '/actuator/sisicon/prometheus'
+      static_configs:
+        - targets: ['host.docker.internal:8080']
+          labels:
+            application: 'Sisicon Service'

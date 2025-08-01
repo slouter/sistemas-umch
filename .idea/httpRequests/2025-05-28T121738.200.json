@@ -1,0 +1,186 @@
+[
+  {
+    "ID_PAIS": 1,
+    "NOMBRE_PAIS": "Afganistán"
+  },
+  {
+    "ID_PAIS": 2,
+    "NOMBRE_PAIS": "Alemania"
+  },
+  {
+    "ID_PAIS": 3,
+    "NOMBRE_PAIS": "Argentina"
+  },
+  {
+    "ID_PAIS": 4,
+    "NOMBRE_PAIS": "Australia"
+  },
+  {
+    "ID_PAIS": 5,
+    "NOMBRE_PAIS": "Brasil"
+  },
+  {
+    "ID_PAIS": 6,
+    "NOMBRE_PAIS": "Canadá"
+  },
+  {
+    "ID_PAIS": 7,
+    "NOMBRE_PAIS": "Chile"
+  },
+  {
+    "ID_PAIS": 8,
+    "NOMBRE_PAIS": "China"
+  },
+  {
+    "ID_PAIS": 9,
+    "NOMBRE_PAIS": "Colombia"
+  },
+  {
+    "ID_PAIS": 10,
+    "NOMBRE_PAIS": "Corea del Sur"
+  },
+  {
+    "ID_PAIS": 11,
+    "NOMBRE_PAIS": "Costa Rica"
+  },
+  {
+    "ID_PAIS": 12,
+    "NOMBRE_PAIS": "Cuba"
+  },
+  {
+    "ID_PAIS": 13,
+    "NOMBRE_PAIS": "Ecuador"
+  },
+  {
+    "ID_PAIS": 14,
+    "NOMBRE_PAIS": "Egipto"
+  },
+  {
+    "ID_PAIS": 15,
+    "NOMBRE_PAIS": "El Salvador"
+  },
+  {
+    "ID_PAIS": 16,
+    "NOMBRE_PAIS": "España"
+  },
+  {
+    "ID_PAIS": 17,
+    "NOMBRE_PAIS": "Estados Unidos"
+  },
+  {
+    "ID_PAIS": 18,
+    "NOMBRE_PAIS": "Francia"
+  },
+  {
+    "ID_PAIS": 19,
+    "NOMBRE_PAIS": "Grecia"
+  },
+  {
+    "ID_PAIS": 20,
+    "NOMBRE_PAIS": "Guatemala"
+  },
+  {
+    "ID_PAIS": 21,
+    "NOMBRE_PAIS": "Honduras"
+  },
+  {
+    "ID_PAIS": 22,
+    "NOMBRE_PAIS": "India"
+  },
+  {
+    "ID_PAIS": 23,
+    "NOMBRE_PAIS": "Indonesia"
+  },
+  {
+    "ID_PAIS": 24,
+    "NOMBRE_PAIS": "Inglaterra"
+  },
+  {
+    "ID_PAIS": 25,
+    "NOMBRE_PAIS": "Irlanda"
+  },
+  {
+    "ID_PAIS": 26,
+    "NOMBRE_PAIS": "Italia"
+  },
+  {
+    "ID_PAIS": 27,
+    "NOMBRE_PAIS": "Japón"
+  },
+  {
+    "ID_PAIS": 28,
+    "NOMBRE_PAIS": "México"
+  },
+  {
+    "ID_PAIS": 29,
+    "NOMBRE_PAIS": "Nicaragua"
+  },
+  {
+    "ID_PAIS": 30,
+    "NOMBRE_PAIS": "Noruega"
+  },
+  {
+    "ID_PAIS": 31,
+    "NOMBRE_PAIS": "Panamá"
+  },
+  {
+    "ID_PAIS": 32,
+    "NOMBRE_PAIS": "Paraguay"
+  },
+  {
+    "ID_PAIS": 33,
+    "NOMBRE_PAIS": "Perú"
+  },
+  {
+    "ID_PAIS": 34,
+    "NOMBRE_PAIS": "Polonia"
+  },
+  {
+    "ID_PAIS": 35,
+    "NOMBRE_PAIS": "Portugal"
+  },
+  {
+    "ID_PAIS": 36,
+    "NOMBRE_PAIS": "Reino Unido"
+  },
+  {
+    "ID_PAIS": 37,
+    "NOMBRE_PAIS": "Rusia"
+  },
+  {
+    "ID_PAIS": 38,
+    "NOMBRE_PAIS": "Sudáfrica"
+  },
+  {
+    "ID_PAIS": 39,
+    "NOMBRE_PAIS": "Suecia"
+  },
+  {
+    "ID_PAIS": 40,
+    "NOMBRE_PAIS": "Suiza"
+  },
+  {
+    "ID_PAIS": 41,
+    "NOMBRE_PAIS": "Tailandia"
+  },
+  {
+    "ID_PAIS": 42,
+    "NOMBRE_PAIS": "Turquía"
+  },
+  {
+    "ID_PAIS": 43,
+    "NOMBRE_PAIS": "Ucrania"
+  },
+  {
+    "ID_PAIS": 44,
+    "NOMBRE_PAIS": "Uruguay"
+  },
+  {
+    "ID_PAIS": 45,
+    "NOMBRE_PAIS": "Venezuela"
+  },
+  {
+    "ID_PAIS": 46,
+    "NOMBRE_PAIS": "Vietnam"
+  }
+]

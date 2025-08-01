@@ -1,0 +1,119 @@
+name: sistemas_umch
+
+services:
+  db-umch:
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: db-umch
+      MYSQL_USER: bryan
+      MYSQL_PASSWORD: 123456
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  ### Posgres database for Keylock
+  db-keycloak:
+    container_name: db-keycloak-umch
+    image: postgres:15.2
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: db_keyclock
+      POSTGRES_USER: bryan
+      POSTGRES_PASSWORD: 123456
+    ports:
+      - 5433:5433
+    expose:
+      - 5433
+    command: -p 5433
+
+  ### Keycloak
+  keycloak:
+    container_name: keycloak-umch
+    image: quay.io/keycloak/keycloak:24.0.3
+    command: [ "start-dev" ]
+    ports:
+      - 8181:8181
+    expose:
+      - 8181
+    depends_on:
+      - db-keycloak
+    environment:
+      DB_VENDOR: POSTGRES
+      DB_ADDR: db-keycloak
+      DB_DATABASE: db_keycloak
+      DB_PORT: 5433
+      DB_USER: bryan
+      DB_PASSWORD: test123
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+      KC_HTTP_PORT: 8181
+
+  ##Zookeeper
+  zookeeper:
+    container_name: zookeeper-umch
+    image: confluentinc/cp-zookeeper:7.4.0
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+
+  ##Zipkin
+  zipkin:
+    container_name: zipkin-umch
+    image: openzipkin/zipkin:2.24.2
+    ports:
+      - "9411:9411"
+
+  ##Prometheus
+  prometheus:
+    container_name: prometheus-umch
+    image: prom/prometheus:v2.46.0
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./files/prometheus.yml:/etc/prometheus/prometheus.yml
+
+  ##Grafana
+  grafana:
+    container_name: grafana-umch
+    image: grafana/grafana:10.3.0
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    links:
+      - prometheus
+    volumes:
+      - ./files/grafana:/var/lib/grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_SECURITY_ADMIN_USER=admin
+    depends_on:
+      - prometheus
+
+  ##Jenkins
+  jenkins:
+    build:
+      context: ./jenkins
+    container_name: jenkins-umch
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - jenkins_home:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - JAVA_OPTS=-Djenkins.install.runSetupWizard=false
+    depends_on:
+      - db-umch
+    networks:
+      - sistemas_umch_network
+
+volumes:
+  mysql_data:
+  jenkins_home:
+
+networks:
+  sistemas_umch_network:

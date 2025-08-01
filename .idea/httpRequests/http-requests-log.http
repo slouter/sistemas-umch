@@ -1,0 +1,113 @@
+GET http://localhost:50276/api/pais
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=51605FDC56F877AC0EBA5340149BB248
+content-length: 0
+
+###
+
+GET http://localhost:50276/api/pais
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=51605FDC56F877AC0EBA5340149BB248
+content-length: 0
+
+###
+
+GET http://localhost:49982/api/persona
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=DE0145E5447617899A23F030353D1D59
+content-length: 0
+
+###
+
+GET http://localhost:50874/api/estado-civil
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B80BC784FEFDD17D7C4F1D441C9EECAD
+content-length: 0
+
+###
+
+GET http://localhost/api/pais
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B80BC784FEFDD17D7C4F1D441C9EECAD
+content-length: 0
+
+<> 2025-06-05T110222.404.html
+
+###
+
+GET http://localhost:59172/api/paises
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B80BC784FEFDD17D7C4F1D441C9EECAD
+content-length: 0
+
+###
+
+GET http://localhost:59172/api/estado-civil
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B80BC784FEFDD17D7C4F1D441C9EECAD
+content-length: 0
+
+###
+
+GET http://localhost:59172/actuator/recursos
+Accept: application/vnd.spring-boot.actuator.v3+json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+GET http://localhost:8080/api/paises
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-05-28T121746.200.json
+
+###
+
+GET http://localhost:8080/api/paises/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-05-28T121738.200.json
+
+###
+
+GET http://localhost:8080/api/reporte/paises
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> reporte-paises.pdf
+
+###
+
+GET http://localhost:8080/api/tipozona
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-05-28T121704.200.json
+
+###
+
