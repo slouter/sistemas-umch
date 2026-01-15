@@ -8,5 +8,5 @@ import java.util.List;
 public interface AlumnoRepositorio extends JpaRepository<Alumno, Integer> {
 
     //Buscar alumno por codigo
-    List<Alumno> findByCodigoAlumno(String codigoAlumno);
+    List<Alumno> findByCodigoAlumno(String idAlumno);
 }

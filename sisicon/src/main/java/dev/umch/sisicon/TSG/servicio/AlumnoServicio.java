@@ -25,11 +25,11 @@ public class AlumnoServicio {
                 .collect(Collectors.toList());
     }
 
-    public List<Alumno> buscarAlumnoPorCodigo(String codigoAlumno){
-        if (codigoAlumno == null || codigoAlumno.isEmpty()) {
+    public List<Alumno> buscarAlumnoPorCodigo(String idAlumno){
+        if (idAlumno == null || idAlumno.isEmpty()) {
             throw new IllegalArgumentException("El codigo de alumno no puede ser nulo o vacío");
         }
-        return alumnoRepositorio.findByCodigoAlumno(codigoAlumno);
+        return alumnoRepositorio.findByCodigoAlumno(idAlumno);
     }
 
     public Alumno mapToAlumnoResponse(Alumno alumno) {
@@ -45,5 +45,4 @@ public class AlumnoServicio {
                 .situacionRegistro(alumno.getSituacionRegistro())
                 .build();
     }
-
 }

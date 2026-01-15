@@ -30,10 +30,10 @@ public class AlumnoControlador {
         return ResponseEntity.ok(alumnos); // 200 OK con el cuerpo
     }
 
-    @GetMapping("/nombre/{nombre}")
+    @GetMapping("/nombre/{idAlumno}")
     @PreAuthorize("hasRole('ROLE_Admin') or hasRole('ROLE_User')")
-    public ResponseEntity<List<Alumno>> obtenerAlumnosPorCodigo(@PathVariable String nombre) {
-        List<Alumno> alumnos = alumnoServicio.buscarAlumnoPorCodigo(nombre);
+    public ResponseEntity<List<Alumno>> obtenerAlumnosPorCodigo(@PathVariable String idAlumno) {
+        List<Alumno> alumnos = alumnoServicio.buscarAlumnoPorCodigo(idAlumno);
         if (alumnos.isEmpty()) {
             return ResponseEntity.notFound().build();
         }

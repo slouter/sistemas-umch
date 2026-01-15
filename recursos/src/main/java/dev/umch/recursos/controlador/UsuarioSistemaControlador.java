@@ -4,6 +4,7 @@ import dev.umch.recursos.entidad.UsuarioSistema;
 import dev.umch.recursos.servicio.UsuarioSistemaServicio;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,7 +12,7 @@ import java.util.List;
 
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController
-@RequestMapping ("/usuarios-sistema")
+@RequestMapping (value = "/api/usuarios-sistema", produces = MediaType.APPLICATION_JSON_VALUE)
 @RequiredArgsConstructor
 public class UsuarioSistemaControlador {
 

@@ -29,6 +29,7 @@ public class UsuarioSistemaServicio {
     public void agregarUsuario(UsuarioSistema usuarioSistema) {
         var nuevoUsuario = UsuarioSistema.builder()
                 .idUsuarioSistema(usuarioSistema.getIdUsuarioSistema())
+                .idPersona(usuarioSistema.getIdPersona())
                 .loginUsuarioSistema(usuarioSistema.getLoginUsuarioSistema())
                 .passwordUsuarioSistema(usuarioSistema.getPasswordUsuarioSistema())
                 .numeroAleatorio(usuarioSistema.getNumeroAleatorio())
@@ -62,6 +63,7 @@ public class UsuarioSistemaServicio {
     public UsuarioSistema mapToUsuarioSistemaResponse(UsuarioSistema usuarioSistema) {
         return UsuarioSistema.builder()
                 .idUsuarioSistema(usuarioSistema.getIdUsuarioSistema())
+                .idPersona(usuarioSistema.getIdPersona())
                 .loginUsuarioSistema(usuarioSistema.getLoginUsuarioSistema())
                 .passwordUsuarioSistema(usuarioSistema.getPasswordUsuarioSistema())
                 .numeroAleatorio(usuarioSistema.getNumeroAleatorio())

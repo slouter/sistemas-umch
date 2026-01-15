@@ -52,7 +52,7 @@ services:
 
   ##Zookeeper
   zookeeper:
-    container_name: zookeeper-umch
+    container_name: zookeeper-umchRR
     image: confluentinc/cp-zookeeper:7.4.0
     environment:
       ZOOKEEPER_CLIENT_PORT: 2181
@@ -99,7 +99,7 @@ services:
       context: ./jenkins
     container_name: jenkins-umch
     ports:
-      - "8080:8080"
+      - "8090:8080"
       - "50000:50000"
     volumes:
       - jenkins_home:/var/jenkins_home
