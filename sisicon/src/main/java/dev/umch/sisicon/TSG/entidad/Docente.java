@@ -1,40 +1,37 @@
 package dev.umch.sisicon.TSG.entidad;
 
+import dev.umch.recursos.entidad.Persona;
 import dev.umch.recursos.entidad.TipoAmbiente;
 import jakarta.persistence.*;
-import lombok.*;
-import dev.umch.recursos.entidad.Persona;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
 @Entity
 @Data
-@Table(name = "TM_ALUMNO")
+@Table(name = "TM_DOCENTE")
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Alumno{
+public class Docente {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ID_ALUMNO")
-    private Integer idAlumno;
-
-    //@Column(name = "ID_PERSONA")
-    //private Integer idPersona;
+    @Column(name = "ID_DOCENTE")
+    private Integer idDocente;
 
     @ManyToOne
     @JoinColumn(name = "ID_PERSONA", referencedColumnName = "ID_PERSONA", insertable = false, updatable = false)
     private Persona persona;
 
-    @Column(name = "CODIGO_ALUMNO")
-    private String codigoAlumno;
-
-    @Column(name = "FLAG_GENERA_USUARIO")
-    private String flagGeneraUsuario;
+    @Column(name = "CODIGO_DOCENTE")
+    private String codigoDocente;
 
     @Column(name = "FLAG_IDIOMA")
-    private String flagIdioma;
+    private Integer flagIdioma;
 
     @Column(name = "ID_USUARIO_MODIFICA")
     private Integer idUsuarioModifica;

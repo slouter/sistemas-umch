@@ -35,7 +35,7 @@ public class AlumnoServicio {
     public Alumno mapToAlumnoResponse(Alumno alumno) {
         return Alumno.builder()
                 .idAlumno(alumno.getIdAlumno())
-                .idPersona(alumno.getIdPersona())
+                //.idPersona(alumno.getIdPersona())
                 .persona(alumno.getPersona())
                 .codigoAlumno(alumno.getCodigoAlumno())
                 .flagGeneraUsuario(alumno.getFlagGeneraUsuario())

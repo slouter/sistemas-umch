@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4539fa43-d1d6-42e6-b2ed-aedd00f00d3c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fd57c72c-02d8-4833-aac2-f3fa22bb3563.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fd57c72c-02d8-4833-aac2-f3fa22bb3563/storage_v2/_src_/schema/db-umch.7AjbUw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fd57c72c-02d8-4833-aac2-f3fa22bb3563/storage_v2/_src_/schema/db-umch.7AjbUw.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="4539fa43-d1d6-42e6-b2ed-aedd00f00d3c" name="Changes" comment="Actualización del Jenkins 15/01/2026">
+      <change afterPath="$PROJECT_DIR$/recursos/src/main/java/dev/umch/recursos/entidad/Ambiente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursos/src/main/java/dev/umch/recursos/entidad/Pabellon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursos/src/main/java/dev/umch/recursos/entidad/TipoAmbiente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sisicon/src/main/java/dev/umch/sisicon/TSG/entidad/Docente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/grafana/alerting/1/__default__.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/files/grafana/alerting/1/__default__.tmpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/grafana/grafana.db" beforeDir="false" afterPath="$PROJECT_DIR$/files/grafana/grafana.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/src/main/java/dev/umch/recursos/controlador/UsuarioSistemaControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/src/main/java/dev/umch/recursos/controlador/UsuarioSistemaControlador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursos/src/main/java/dev/umch/recursos/servicio/UsuarioSistemaServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/src/main/java/dev/umch/recursos/servicio/UsuarioSistemaServicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sisicon/src/main/java/dev/umch/sisicon/TSG/controlador/AlumnoControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/sisicon/src/main/java/dev/umch/sisicon/TSG/controlador/AlumnoControlador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sisicon/src/main/java/dev/umch/sisicon/TSG/repositorio/AlumnoRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/sisicon/src/main/java/dev/umch/sisicon/TSG/repositorio/AlumnoRepositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sisicon/src/main/java/dev/umch/sisicon/TSG/entidad/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/sisicon/src/main/java/dev/umch/sisicon/TSG/entidad/Alumno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sisicon/src/main/java/dev/umch/sisicon/TSG/servicio/AlumnoServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/sisicon/src/main/java/dev/umch/sisicon/TSG/servicio/AlumnoServicio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -336,8 +331,25 @@
       <workItem from="1766156269372" duration="3690000" />
       <workItem from="1766165435614" duration="596000" />
       <workItem from="1768404716140" duration="5179000" />
-      <workItem from="1768490309457" duration="2667000" />
+      <workItem from="1768490309457" duration="13242000" />
     </task>
+    <task id="LOCAL-00001" summary="Actualización del Jenkins 15/01/2026">
+      <option name="closed" value="true" />
+      <created>1768512758990</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768512758991</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Actualización del Jenkins 15/01/2026">
+      <option name="closed" value="true" />
+      <created>1768512807155</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1768512807155</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,6 +393,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Actualización del Jenkins 15/01/2026" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualización del Jenkins 15/01/2026" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
